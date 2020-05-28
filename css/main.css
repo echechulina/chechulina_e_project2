@@ -1,0 +1,242 @@
+body {
+  display: flex;
+  text-align: center;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+body, div, p, h1, h2, section {
+margin: 0; 
+padding: 0; 
+} 
+
+div {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+
+}
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 14px;
+}
+
+.container
+{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.hidden {
+  display: none;
+}
+
+
+.mainBanner {
+background: url(../images/beer.jpg) no-repeat bottom; 
+
+}
+
+
+.banner {
+width: 980px;
+height: 653px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+position: relative;
+opacity: 0.8;
+} 
+.banner h2 {
+  font-size: 60px;
+  font-weight: normal;
+  font-family: "Luckiest Guy";
+  margin-bottom: 300px;
+  letter-spacing: 1px;
+  opacity: 1;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+
+}
+
+
+.introBack {
+
+  background-color: #336585;
+height: 210px;
+}
+
+.introBackWhite {
+  background-color: #fff;
+  display: flex;
+}
+
+
+}
+.intro, .title, .concl{
+  text-align: center;
+}
+
+.intro h2 {
+  color: #fff;
+  margin-top:20px;
+  font-family: "Baloo 2";
+}
+
+.introBackWhite {
+  margin: 10px;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.introBackWhite p {
+  text-align: left;
+  font-family: Poppins;
+  margin: 10px;
+  line-height: 15px;
+}
+.title {
+  margin: 20px;
+  font-family: "Baloo 2";
+  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+.firstStoryColumn {
+  display: flex;
+  flex-direction: row;
+
+}
+.secondStoryUpper, .secondStoryMiddle, .secondStoryDown {
+  display: flex;
+  flex-direction: row;
+  font-family: Inconsolata
+  font-size:16px;
+
+}
+.paragraph1 {
+  width: 440px;
+  margin-top: 30px;
+  
+}
+.paragraph1dw{
+  width: 880px;
+  margin-top: 10px;
+}
+
+.paragraph1 p {
+  margin: 10px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 15px;
+
+}
+
+.paragraph1dw p {
+  margin: 10px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 15px;
+  }
+
+.paragraph2up {
+  width: 440px;
+  margin-top: 10px;
+  
+}
+
+.paragraph2up p {
+  margin: 10px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: justify;
+
+}
+
+.paragraph2up p:first-letter {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.paragraph2md {
+  width: 440px; 
+  margin-top: 10px;
+  
+}
+
+.paragraph2md p {
+  margin: 10px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+.paragraph2md p:first-letter {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.paragraph2dw {
+  width: 440px;
+  margin-top: 10px;
+  
+}
+
+.paragraph2dw p {
+  margin: 10px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.paragraph2dw p:first-letter {
+  font-size: 18px;
+  font-weight: bold;
+}
+.paragraph3{
+  width: 880px;
+  margin-bottom: 20px;
+}
+.paragraph3 p { 
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 15px;
+  padding: 5px;
+
+}
+.concl{
+color: #fff;
+margin-top:20px;
+font-family: "Baloo 2";
+font-size: 20px;
+}
+
+.conclBack {
+  background-color: #336585;
+  width:980px;
+  height:150px;
+}
+
+.conclBackWhite {
+  background-color: #fff;
+  margin: 5px;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.conclBackWhite p {
+  line-height: 19px;
+  font-family: Poppins;
+  line-height: 19px;
+}
+
