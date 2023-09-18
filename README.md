@@ -2,7 +2,7 @@
 # Description
 Typography, fonts, uppercase and lowercase letters, colors ... It's all in my new project!
 # Installation
-Create the web page with different fonts and css styles.
+No specific installation is required.
 # MIT License
 MIT License Copyright (c) 2020 Elena Chechulina
 
